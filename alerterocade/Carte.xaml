@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:alerterocade;assembly=alerterocade"
+    x:Class="alerterocade.Carte"
+    Icon="schedule.png"
+    Title="Carte">
+	<ContentPage.Content>
+        <AbsoluteLayout>
+            <local:MapView AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
+            <Grid AbsoluteLayout.LayoutBounds="0,0,1,10" AbsoluteLayout.LayoutFlags="WidthProportional">
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+              </Grid.ColumnDefinitions>
+              <Button Margin="10" BackgroundColor="White" Grid.Row="0" Grid.Column="0" Text="opendata" Clicked="OpendataMapClicked"/>
+              <Button Margin="10" BackgroundColor="White" Grid.Row="0" Grid.Column="1" Text="googledata" Clicked="GoogleDataClicked"/>
+            </Grid>
+            <Grid AbsoluteLayout.LayoutBounds="0.5,1,1.0,0.1" AbsoluteLayout.LayoutFlags="All">
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+              </Grid.ColumnDefinitions>
+              <Label Text="Prochain rafraichissement dans 120s" x:Name="Count" HorizontalOptions="Center" Grid.Row="0" Grid.Column="0" />
+              <Button Text="Forcer le rafraichissement" x:Name="Refresh" Grid.Row="1" Grid.Column="0" />
+            </Grid>
+        </AbsoluteLayout>
+	</ContentPage.Content>
+</ContentPage>

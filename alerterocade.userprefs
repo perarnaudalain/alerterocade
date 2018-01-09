@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{378B8B0A-CC80-4774-8CF5-E281656C7DEC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/UIMapView.cs">
+    <Files>
+      <File FileName="alerterocade/AlerteRocadePage.xaml" Line="15" Column="1" />
+      <File FileName="alerterocade/Enter.xaml" Line="15" Column="1" />
+      <File FileName="alerterocade/Enter.xaml.cs" Line="16" Column="1" />
+      <File FileName="alerterocade/Carte.xaml" Line="36" Column="1" />
+      <File FileName="alerterocade/Carte.xaml.cs" Line="6" Column="23" />
+      <File FileName="alerterocade/App.xaml" Line="9" Column="1" />
+      <File FileName="alerterocade/Favoris.xaml" Line="11" Column="1" />
+      <File FileName="alerterocade/Favoris.xaml.cs" Line="1" Column="1" />
+      <File FileName="alerterocade/Alerte.xaml" Line="11" Column="1" />
+      <File FileName="alerterocade/Alerte.xaml.cs" Line="1" Column="1" />
+      <File FileName="alerterocade/alerterocadePage.xaml.cs" Line="7" Column="1" />
+      <File FileName="alerterocade/App.xaml.cs" Line="13" Column="1" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="alerterocade/MyButton.cs" Line="11" Column="31" />
+      <File FileName="iOS/Main.cs" Line="8" Column="11" />
+      <File FileName="alerterocade/MyGrid.xaml" Line="68" Column="15" />
+      <File FileName="alerterocade/MyGrid.xaml.cs" Line="120" Column="45" />
+      <File FileName="alerterocade/Exit.xaml" Line="15" Column="1" />
+      <File FileName="alerterocade/Exit.xaml.cs" Line="13" Column="73" />
+      <File FileName="alerterocade/packages.config" Line="1" Column="1" />
+      <File FileName="Droid/Assets/AboutAssets.txt" Line="2" Column="6" />
+      <File FileName="alerterocade/alerterocade.csproj" Line="1" Column="1" />
+      <File FileName="alerterocade/DelegateMethod.cs" Line="9" Column="34" />
+      <File FileName="alerterocade/Resources/info.json" Line="1" Column="1" />
+      <File FileName="alerterocade/Resources/wfs.xml" Line="1" Column="1" />
+      <File FileName="iOS/MapRenderer.cs" Line="18" Column="1" />
+      <File FileName="alerterocade/IMap.cs" Line="10" Column="1" />
+      <File FileName="iOS/WMSTileOverlay.cs" Line="6" Column="27" />
+      <File FileName="alerterocade/WebViewCustom.cs" Line="1" Column="1" />
+      <File FileName="alerterocade/MapView.cs" Line="7" Column="6" />
+      <File FileName="iOS/UIMapView.cs" Line="46" Column="9" />
+      <File FileName="alerterocade/obj/Debug/alerterocade.AlerteRocadePage.xaml.g.cs" Line="19" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.alerterocade.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DEBAB066-716C-4383-8ADE-425E3F5D0C07" automaticSigning="False" />
+  <MultiItemStartupConfigurations />
+</Properties>

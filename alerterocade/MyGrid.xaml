@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:alerterocade" x:Class="alerterocade.MyGrid">
+	<ContentView.Content>
+		<StackLayout>
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto" />
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+				</Grid.ColumnDefinitions>
+				<Button Text="Par numéro" Grid.Row="0" Grid.Column="0" Clicked="HandleTownClicked" />
+				<Button Text="Par ville" Grid.Row="0" Grid.Column="1" Clicked="HandleNumberClicked" />
+			</Grid>
+            <StackLayout x:Name="TownScrollView">
+                <SearchBar x:Name="SearchBar"/>
+                <ScrollView>
+    				<StackLayout x:Name="Town" />
+    			</ScrollView>
+            </StackLayout>
+			<Grid x:Name="Number">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+					<RowDefinition Height="*" />
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+				</Grid.ColumnDefinitions>
+				<local:MyButton Text="1" Grid.Row="0" Grid.Column="0" Clicked="Handle_Clicked" />
+				<local:MyButton Text="2" Grid.Row="0" Grid.Column="1" Clicked="Handle_Clicked" />
+				<local:MyButton Text="3" Grid.Row="0" Grid.Column="2" Clicked="Handle_Clicked" />
+				<local:MyButton Text="4" Grid.Row="0" Grid.Column="3" Clicked="Handle_Clicked" />
+				<local:MyButton Text="5" Grid.Row="0" Grid.Column="4" Clicked="Handle_Clicked" />
+				<local:MyButton Text="6" Grid.Row="1" Grid.Column="0" Clicked="Handle_Clicked" />
+				<local:MyButton Text="7" Grid.Row="1" Grid.Column="1" Clicked="Handle_Clicked" />
+				<local:MyButton Text="8" Grid.Row="1" Grid.Column="2" Clicked="Handle_Clicked" />
+				<local:MyButton Text="9" Grid.Row="1" Grid.Column="3" Clicked="Handle_Clicked" />
+				<local:MyButton Text="10" Grid.Row="1" Grid.Column="4" Clicked="Handle_Clicked" />
+				<local:MyButton Text="11" Grid.Row="2" Grid.Column="0" Clicked="Handle_Clicked" />
+				<local:MyButton Text="12" Grid.Row="2" Grid.Column="1" Clicked="Handle_Clicked" />
+				<local:MyButton Text="13" Grid.Row="2" Grid.Column="2" Clicked="Handle_Clicked" />
+				<local:MyButton Text="14" Grid.Row="2" Grid.Column="3" Clicked="Handle_Clicked" />
+				<local:MyButton Text="15" Grid.Row="2" Grid.Column="4" Clicked="Handle_Clicked" />
+				<local:MyButton Text="16" Grid.Row="3" Grid.Column="0" Clicked="Handle_Clicked" />
+				<local:MyButton Text="17" Grid.Row="3" Grid.Column="1" Clicked="Handle_Clicked" />
+				<local:MyButton Text="18" Grid.Row="3" Grid.Column="2" Clicked="Handle_Clicked" />
+				<local:MyButton Text="19" Grid.Row="3" Grid.Column="3" Clicked="Handle_Clicked" />
+				<local:MyButton Text="20" Grid.Row="3" Grid.Column="4" Clicked="Handle_Clicked" />
+				<local:MyButton Text="21" Grid.Row="4" Grid.Column="0" Clicked="Handle_Clicked" />
+				<local:MyButton Text="22" Grid.Row="4" Grid.Column="1" Clicked="Handle_Clicked" />
+				<local:MyButton Text="23" Grid.Row="4" Grid.Column="2" Clicked="Handle_Clicked" />
+				<local:MyButton Text="24" Grid.Row="4" Grid.Column="3" Clicked="Handle_Clicked" />
+				<local:MyButton Text="25" Grid.Row="4" Grid.Column="4" Clicked="Handle_Clicked" />
+				<local:MyButton Text="26" Grid.Row="5" Grid.Column="0" Clicked="Handle_Clicked" />
+				<local:MyButton Text="27" Grid.Row="5" Grid.Column="1" Clicked="Handle_Clicked" />
+			</Grid>
+		</StackLayout>
+	</ContentView.Content>
+</ContentView>
